@@ -1,0 +1,108 @@
+*{
+    color: #F6F6F6;
+    font-family: 'Gotham';
+}
+
+body{
+    background-color: #000000;
+    padding: 10px;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    height: 88vh;
+    justify-content: space-between;
+}
+
+.sideBar{
+
+    
+    max-width: 25%;
+    min-width: 270px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex: 1;
+}
+
+.side1{
+    background-color: #121212;
+    height: 20%;
+    width: 100%;
+    
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.side1__spotify, .side1__home , .side1__search{
+    display: flex;
+    align-items: center;
+
+}
+.side1__spotify-logo,.side1__home-logo,.side1__search-logo{
+    height: 30px;
+    width: 30px;
+    margin: 2px;
+}
+
+.side1__spotify-title, .side1__home-title,.side1__search-title{
+    font-size: 1em;
+    vertical-align: middle
+}
+
+.side2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #121212;
+    height: 79%;
+    width: 100%;
+
+    border-radius: 10px;
+}
+
+.details{
+    background-color: #121212;
+    flex: 1;
+    max-width: 74.5%;
+
+    border-radius: 10px;
+}
+
+.playlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+    background-color: #232323;
+    width: 95%;
+    height: 15%;
+    padding: 10px;
+
+    border-radius: 10px;
+    
+}
+
+.playlist__button{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 100px;
+
+    color: black;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: aqua;
+    width: 100%;
+    height: 10vh;
+    margin-top:0.5%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #AF2896, #519BF5);
+}
